@@ -1,5 +1,5 @@
 //add2,sub5,mul3,div6,mod8
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int num,add,sub,mul,div,mod;
     printf("Enter a number : ");
@@ -15,10 +15,10 @@ int main(){
     mod=num%8;
     printf("Modulus : %d\n",mod);
     return 0;
-}*/
+}
 
 //2 digit print 1s nd 10s digit
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int num,o1,o2;
     printf("Enter a two digit number : ");
@@ -27,10 +27,10 @@ int main(){
     o2=num/10;
     printf("1s digit of %d is %d\n",num,o1);
     printf("10s digit of %d is %d\n",num,o2);
-}*/
+}
 
 //3 digit
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int num,o1,o2,o3,sp,sum;
     printf("Enter a three digit number : ");
@@ -44,10 +44,10 @@ int main(){
     printf("100s digit of %d is %d\n",num,o3);
     sum=o1+o2+o3;
     printf("The sum of digit of %d is %d\n",num,sum);
-}*/
+}
 
 //Reverse 3 and 2 digits
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int num;
     printf("Enter a three digit number to perform reverse: ");
@@ -57,10 +57,10 @@ int main(){
         num=num/10;
     }
     return 0;
-}*/
+}
 
 //reverse last and first 2 digits
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int num;
     printf("Enter a Number: ");
@@ -71,10 +71,10 @@ int main(){
     int result=(remaining*100)+reversed;
     printf("The answer is %d",result);
     return 0;
-}*/
+}
 
 //reverse 1st 2 digit
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int num;
     printf("Enter a Number: ");
@@ -85,10 +85,10 @@ int main(){
     int result=(reversed*100)+last2;
     printf("The answer is %d",result);
     return 0;
-}*/
+}
 
 //last digit =0 for 2 digit num
-/*#include<stdio.h>
+#include<stdio.h>
 void onez(int num){
     int o1=num%10;
     int o2=num/10;
@@ -128,10 +128,10 @@ int main(){
     onz3(num);
     tenz3(num);
     return 0;
-}*/
+}
 
 //sub 5 and find if odd
-/*#include<stdio.h>
+#include<stdio.h>
 void odd(){
     printf("The number is odd!");
 }
@@ -146,10 +146,10 @@ int main(){
     printf("After subtracting the result is: %d\n",result);
     (result%2!=0)?(odd()):(not());
     return 0;
-}*/
+}
 
 //sub 5 and if 10's digit is odd
-/*#include<stdio.h>
+#include<stdio.h>
 void odd(){
     printf("The ten's number is odd!");
 }
@@ -165,10 +165,10 @@ int main(){
     printf("The result is: %d\n",o1);
     (o1%2!=0)?(odd()):(not());
     return 0;
-}*/
+}
 
 //sub 5 and if their sum is odd
-/*#include<stdio.h>
+#include<stdio.h>
 void odd(){
     printf("The sum is odd!");
 }
@@ -186,10 +186,10 @@ int main(){
     printf("The result is: %d\n",sum);
     (sum%2!=0)?(odd()):(not());
     return 0;
-}*/
+}
 
 //sub 5 and if their 1's and 100's is same
-/*#include<stdio.h>
+#include<stdio.h>
 void print(){
     printf("The digits are same!");
 }
@@ -208,10 +208,10 @@ int main(){
     printf("The result is: %d\n",result);
     (o1==o3)?(print()):(not());
     return 0;
-}*/
+}
 
 //sub 5 and if their 10's and 100's is same
-/*#include<stdio.h>
+#include<stdio.h>
 void print(){
     printf("The digits are same!");
 }
@@ -232,10 +232,10 @@ int main(){
     printf("The result is: %d\n",result);
     (o2==o3)?(print()):(not());
     return 0;
-}*/
+}
 
 //3 digits sum 10
-/*#include<stdio.h>
+#include<stdio.h>
 int main(){
     int a,o1,o2,o3,sp,sum;
     printf("Enter the three digit number: ");
@@ -253,7 +253,7 @@ int main(){
         printf("Failure!");
     }
     return 0;
-}*/
+}
 
 //
 
